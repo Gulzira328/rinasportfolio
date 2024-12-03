@@ -1,0 +1,62 @@
+
+      header, section, footer, nav {
+        text-align: center;
+      }
+      nav {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px; 
+      }
+   
+body{
+    font-family:Arial;
+    background-color: #ffccff !important;
+  
+  }
+  nav {
+    background-color:#6a5acd;
+      padding:10px;
+      text-align:center;
+      font-size:30px;
+      color: white;
+  }
+  h2{
+    margin:10px;
+    color:Black;
+    font-size:30px;
+  }
+  nav a{color:white;
+      margin:5px;
+      text-decoration:none;
+  }
+  nav a:hover{
+         text-decoration:underline;
+  }
+  p{
+    font-size:20px;
+  }
+  button{
+    border-radius:15px;
+    background-color:#FFF8DC;
+    margin:20px;
+  
+  
+  }
+  input [type=text]{
+    border:2px solide red;
+    border-radius:4px;
+    margin:20px;
+  }
+  .image-grid{
+    display:flex;
+    justify-content : space-between;
+    margin-top:0px;
+    padding:40px;
+    margin-left:10px;
+  }
+  .imag-grid img{
+    width:60px;
+    margin:0;
+    padding:0px;
+  }

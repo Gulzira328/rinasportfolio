@@ -1,0 +1,260 @@
+@import url('https://fonts.googleapis.com/css2?family=Poetsen+One&family=Raleway:wght@300;400;500;600&display=swap');
+
+.links li a {
+    color: #5d5d5d; /* Set the text color to white */
+    /* Remove underline from links */
+}
+
+#getstarted a {
+    color: white;
+}
+
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+a {
+  text-decoration: none !important;
+}
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+ 
+}
+/* Start Landing Page */
+.landing-page header {
+  min-height: 80px;
+  display: flex;
+}
+
+  .landing-page header {
+    min-height: auto;
+    display: initial;
+  }
+
+.landing-page header .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+}
+h3{
+  color: black;
+  font-family: Gergia;
+  text-transform: uppercase;
+  font-size: 25px;
+}
+.landing-page .highlight{
+  color: #50FF6C;
+  font-size:  25px;
+  font-family: Gergia;
+}
+
+.landing-page header .links {
+  display: flex;
+  align-items: center;
+  color: black;
+}
+
+.landing-page header .links li {
+  margin-left: 30px;
+  cursor: pointer;
+  transition: .3s;
+}
+
+.landing-page header .links li:last-child {
+  border-radius: 20px;
+  padding: 10px 20px;
+  background-color: #50FF6C;
+}
+
+.landing-page .content .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 10px;
+  min-height: calc(100vh - 70px);
+
+}
+.landing-page .content .info button {
+    border: 0;
+    border-radius: 20px;
+    padding: 12px 30px;
+    margin-top: 30px;
+    cursor: pointer;
+    color: #FFF;
+    background-color:#50FF6C;
+}
+.landing-page .content .image img {
+  max-width: 100%;
+  width: 350px;
+}
+
+.icon{
+    width: 25px;
+}
+
+footer{
+    background-color: #495F7A;
+    padding: 20px;
+    margin-top: 30px;
+}
+.icons{
+    display: flex;
+    align-items:center;
+    justify-content:center;
+    column-gap: 20px;
+}
+.footer__links{
+    display: flex;
+    justify-content:center;
+    column-gap: 20px;
+}
+
+.footer__links li a {
+    color: white;
+}
+
+.mail{
+    margin: 10px;
+    display: flex;
+    justify-content:center;
+    column-gap: 8px;
+    align-items: center;
+}
+.mail__text{
+    color:white;
+}
+
+.skills{
+    text-align: center;
+    margin: 50px;
+}
+.skills__title{
+    color: #5d5d5d;
+    font-size: 44px;
+}
+.skills__box{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+.skills__block{
+    width: calc(33.33333% - 50px);
+}
+.skills__icon{
+    width: 100px;
+    height: 100px;
+}
+.skills__text{
+    color: #5d5d5d;
+    font-size: 24px;
+}
+.form{
+    margin: 40px;
+}
+.form__img{
+    margin:40px;
+}
+
+.form__inp{
+    width: 500px;
+    padding: 15px;
+    background-color: #e4f2f0;
+    border: none;
+}
+
+.textarea{
+    resize:none;
+    width: 500px;
+    height:150px;
+}
+input[type=submit] {
+  border: 0;
+  border-radius: 20px;
+  padding: 10px 25px;
+  margin-top: 15px;
+  background-color: #50FF6C;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+input[type=submit]:hover {
+  background-color: #45e060;
+}
+
+.submit {
+  padding-right:170px;
+  display: flex;
+  justify-content:center;
+  align-items: center;
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.footer-left h3 {
+    color: #fff;
+    padding:5px;
+}
+
+.footer-left .highlight {
+    color: #50FF6C; /* Your specific shade of blue */
+}
+
+.footer-left nav a {
+    color: #ddd;
+    text-decoration: none;
+    margin: 0 5px;
+}
+
+.footer-left nav a:hover {
+    color: #fff;
+}
+
+.footer-middle, .footer-right {
+    color: #ddd;
+}
+
+.footer-right h4 {
+    color: #fff;
+}
+
+.footer-right p {
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+.social-icons a img {
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+}
+
+footer p {
+    font-size: 14px;
+    color: #888;
+    padding:5px;
+}
+.social-icons a {
+    color: #ddd;
+    margin-right: 10px;
+    font-size: 24px;
+    text-decoration: none;
+}
+
+.social-icons a:hover {
+    color: #fff; /* Change to a highlight color on hover */
+}
+
